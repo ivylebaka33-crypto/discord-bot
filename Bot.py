@@ -5,7 +5,7 @@ from discord import app_commands
 import re
 import os
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = "MTU0MzczMDMyODUzNzkzMTc3Ng.GQ76-J.yPLhS0Rb4jBAfnZR4I_2bp8RoP6cLEg0Rn1r40"
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
