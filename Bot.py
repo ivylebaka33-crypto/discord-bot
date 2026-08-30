@@ -3,8 +3,9 @@
 import discord
 from discord import app_commands
 import re
+import os
 
-TOKEN = "MET_TON_TOKEN_ICI"
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
