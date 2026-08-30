@@ -97,4 +97,4 @@ async def on_ready():
         print(e)
 
 
-client.run(TOKEN)
+bot.run(TOKEN)
