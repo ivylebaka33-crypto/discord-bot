@@ -1,11 +1,11 @@
-# Discord Bot - Work in Progress
+de# Discord Bot - Work in Progress
 # Placeholder for bot code
 import discord
 from discord import app_commands
 import re
 import os
 
-TOKEN = "MTU0MzczMDMyODUzNzkzMTc3Ng.GQ76-J.yPLhS0Rb4jBAfnZR4I_2bp8RoP6cLEg0Rn1r40"
+TOKEN = TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
@@ -97,4 +97,4 @@ async def on_ready():
         print(e)
 
 
-bot.run(TOKEN)
+client.run(TOKEN)
